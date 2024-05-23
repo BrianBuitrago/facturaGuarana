@@ -1,0 +1,25 @@
+soy Daniel Arcos, estoy integrando git en mi visual estudio, si todo va bien se a de creear una nueva rama llamada develop.
+Aprobecho este espacio para dejar un tutorial de como implementar Java en visual o simplemente conectarte desde la terminal del visual.
+/*-------------------------------------------------------------------------------------------------------------------------------------
+como usar Java en visual
+-------------------------------------------------------------------------------------------------------------------------------------*/
+si quieres usar Java en visual deberas de instalar la Extencion "Extension Pack for Java  v0.26.0" si no tienes la jdk instalada
+despues de instalar la extencion te aparecera un cudro para instalarla, despues de tener todo instalado puedes probar haciendo una clase
+con un main y dentro del main un System.out.print("mensaje de prueba que debe de verse ne la consola");.
+/*-------------------------------------------------------------------------------------------------------------------------------------
+como conectarte a git facil
+-------------------------------------------------------------------------------------------------------------------------------------*/
+Bueno ahora vamos a conectar el visual con git de manera rapida y sencilla
+primero abre la terminal de visual, esta se encuntra en el menu de arriba, dale click a terminal y neva termina
+esto te abrira la termina y veras una consola abajo de tu visual o dende tengas configurado eso.
+Ahora vamos a ir al repositorio en el git(en un lugar aparte ve guardando tu nombre de ususario y correo de gitHub)
+ahora pondras este comando en la terminal: git clone https://github.com/BrianBuitrago/facturaGuarana.git 
+esto clonara el repositorio, pude que despues de esto te habra el proyecto 
+pero te recomiendo que lo habras con este codigo: cd facturaGuarana
+y despues pones este otro: code .
+listo ya estas trabajando con el proyecto ahora vamos a conectarnos con estos otros comandos:
+git config --global user.name Tu Nombre
+git config --global user.email tuemail@example.com
+okey despues de esto te recomiendo que mires un video o busques los comandos de git para realizar algun cambio o lo que tengas que hacer.
+
+
