@@ -1,0 +1,53 @@
+Configurar el usuario de Git:
+git config --global user.name "MrFackry"
+git config --global user.email "daniel.d.arcos05@gmail.com"
+Configura el nombre de usuario y el correo electrónico globales para Git.
+
+Crear una nueva rama:
+git checkout -b develop
+Crea y cambia a una nueva rama llamada develop.
+
+Añadir archivos al área de preparación:
+git add .
+Añade todos los archivos modificados al área de preparación para el próximo commit.
+bash
+Copiar código
+git add nuevaRamaLEER.txt
+Añade solo el archivo nuevaRamaLEER.txt al área de preparación para el próximo commit.
+
+Verificar el estado de Git:
+git status
+Muestra el estado del directorio de trabajo y del área de preparación.
+
+Confirmar cambios:
+git commit -m "Mensaje del commit"
+Confirma los cambios añadidos al área de preparación con un mensaje descriptivo.
+
+Ver el historial de commits:
+git log --oneline
+Muestra el historial de commits en una línea por cada commit.
+
+Subir cambios al repositorio remoto:
+git push origin develop
+Sube la rama develop al repositorio remoto en GitHub.
+
+Forzar la subida de cambios al repositorio remoto:
+git push origin develop --force
+Sube la rama develop al repositorio remoto y sobrescribe cualquier historial en el repositorio remoto que no esté presente en la rama local.
+
+Revertir el último commit manteniendo los cambios en el área de preparación:
+git reset --soft HEAD~1
+Revertir el último commit, dejando los cambios en el área de preparación para realizar nuevos ajustes.
+
+Eliminar todos los archivos del área de preparación y del índice:
+git rm -rf .
+Elimina todos los archivos y directorios del índice y del área de trabajo.
+
+Recuperar un archivo específico desde el último commit:
+git checkout HEAD nuevaRamaLEER.txt
+Recupera el archivo nuevaRamaLEER.txt del último commit y lo restaura en el directorio de trabajo.
+
+Cambiar de rama:
+git checkout develop
+Cambia a la rama develop.
+Guarda estos comandos en un archivo de texto para futuras referencias. Si necesitas más ayuda, ¡no dudes en preguntar!
