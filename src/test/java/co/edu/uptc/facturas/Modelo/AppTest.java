@@ -1,4 +1,4 @@
-package co.edu.uptc.facturas;
+package co.edu.uptc.facturas.Modelo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

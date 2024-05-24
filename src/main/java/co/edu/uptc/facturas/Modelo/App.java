@@ -1,4 +1,4 @@
-package co.edu.uptc.facturas;
+package co.edu.uptc.facturas.Modelo;
 
 import static spark.Spark.*;
 /**
